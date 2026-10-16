@@ -11,13 +11,16 @@
       "extensions": [
         "GitHub.copilot",
         "dbaeumer.vscode-eslint",
-        "ms-vscode.live-server",
+        "ritwickdey.LiveServer",
         "esbenp.prettier-vscode"
       ],
       "settings": {
+        "editor.inlineSuggest.enabled": true,
+        "editor.tabCompletion": "on",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "eslint.validate": ["javascript"],
-        "livePreview.portNumber": 5500,
-        "livePreview.openPreviewTarget": "Embedded Preview"
+        "liveServer.settings.port": 5500
       }
     }
   },
@@ -28,8 +31,8 @@
       "onAutoForward": "notify"
     },
     "5500": {
-      "label": "Live Preview",
-      "onAutoForward": "silent"
+      "label": "Live Server",
+      "onAutoForward": "openBrowser"
     }
   }
 }
