@@ -9,13 +9,6 @@
 
   "prettier.singleQuote": true,
   "prettier.semi": true,
-  "prettier.tabWidth": 2,
-
-  "livePreview.portNumber": 5500,
-  "livePreview.openPreviewTarget": "Embedded Preview",
-
-  "remote.portsAttributes": {
-    "5500": { "label": "Live Preview", "onAutoForward": "silent" }
-  }
+  "prettier.tabWidth": 2
 }
 
