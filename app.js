@@ -16,5 +16,3 @@ async function consultarDolar() {
 
 // Cuando se hace clic en el botón, se ejecuta la función
 boton.addEventListener("click", consultarDolar);
-
-
