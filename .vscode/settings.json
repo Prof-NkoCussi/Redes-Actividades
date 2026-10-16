@@ -1,11 +1,16 @@
-
 {
+  "workbench.colorTheme": "Default Dark+",
+
   "editor.inlineSuggest.enabled": true,
   "editor.tabCompletion": "on",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.suggestSelection": "first",
+
   "prettier.singleQuote": true,
   "prettier.semi": true,
-  "prettier.tabWidth": 2
+  "prettier.tabWidth": 2,
+
+  "livePreview.portNumber": 5500,
+  "livePreview.openPreviewTarget": "External Browser"
 }
