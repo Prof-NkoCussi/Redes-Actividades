@@ -15,7 +15,9 @@
         "esbenp.prettier-vscode"
       ],
       "settings": {
-        "eslint.validate": ["javascript"]
+        "eslint.validate": ["javascript"],
+        "livePreview.portNumber": 5500,
+        "livePreview.openPreviewTarget": "Embedded Preview"
       }
     }
   },
