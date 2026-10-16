@@ -13,4 +13,8 @@
 
   "livePreview.portNumber": 5500,
   "livePreview.openPreviewTarget": "External Browser"
+  
+  "remote.portsAttributes": {
+  "5500": { "label": "Live Preview", "onAutoForward": "silent" }
 }
+
