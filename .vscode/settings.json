@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Dark+",
+  "workbench.colorTheme": "Default Dark+",
 
   "editor.inlineSuggest.enabled": true,
   "editor.tabCompletion": "on",
@@ -12,9 +12,10 @@
   "prettier.tabWidth": 2,
 
   "livePreview.portNumber": 5500,
-  "livePreview.openPreviewTarget": "External Browser"
-  
+  "livePreview.openPreviewTarget": "Embedded Preview",
+
   "remote.portsAttributes": {
-  "5500": { "label": "Live Preview", "onAutoForward": "silent" }
+    "5500": { "label": "Live Preview", "onAutoForward": "silent" }
+  }
 }
 
