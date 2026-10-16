@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Dark+",
+  "workbench.colorTheme": "GitHub Light",
 
   "editor.inlineSuggest.enabled": true,
   "editor.tabCompletion": "on",
@@ -11,4 +11,3 @@
   "prettier.semi": true,
   "prettier.tabWidth": 2
 }
-
