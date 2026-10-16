@@ -1,0 +1,44 @@
+
+{
+  "name": "Programacion Web - Codespaces",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "24"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "dbaeumer.vscode-eslint",
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.inlineSuggest.enabled": true,
+        "editor.tabCompletion": "on",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "eslint.validate": [
+          "javascript"
+        ],
+        "liveServer.settings.port": 5500
+      }
+    }
+  },
+  "forwardPorts": [
+    3000,
+    5500
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "Servidor Node.js",
+      "onAutoForward": "notify"
+    },
+    "5500": {
+      "label": "Live Server",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
