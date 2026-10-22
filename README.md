@@ -1,1 +1,3 @@
-# Redes-Actividades
+Nombre y apellido
+Curso
+Colegio
